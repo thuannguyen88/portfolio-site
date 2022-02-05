@@ -1,15 +1,14 @@
 .app {
   height: 100vh;
   scrollbar-width: none;
-  &::webkit-scrollbar {
-    display: none;
-  }
+  // &::webkit-scrollbar {
+  //   display: none;
+  // }
 }
 
 .sections {
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: lightseagreen;
   position: relative;
   top: 70px;
   overflow-y: auto;

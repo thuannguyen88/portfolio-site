@@ -32,7 +32,7 @@ export default function Contact() {
         <img src="assets/email-3.jpeg" alt="" />
       </div>
       <div className="contact-right">
-        <h2>Contact.</h2>
+        <h2>Contact</h2>
         <form onSubmit={handleSubmit} ref={formRef}>
           <input type="text" placeholder="Email" name="user_email" />
           <input type="text" placeholder="Subject" name="user_subject" />

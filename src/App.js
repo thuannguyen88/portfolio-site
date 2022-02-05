@@ -6,21 +6,32 @@ import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import Toggle from "./components/toggle/Toggle";
 import "./app.scss";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { ThemeContext } from "./context";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="App">
+    <div
+      className="app"
+      style={{
+        backgroundColor: darkMode ? "#222" : "white",
+        color: darkMode && "white",
+      }}
+    >
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Toggle />
+
       <div className="sections">
         <Intro />
         <Portfolio />
         <References />
         <Contact />
       </div>
+      <Toggle />
     </div>
   );
 }

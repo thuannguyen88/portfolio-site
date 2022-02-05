@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .intro {
-  background-color: white;
   display: flex;
   width: 90%;
   margin: 5px;
@@ -80,7 +79,6 @@ h1 {
   font-size: 60px;
   margin: 10px 0px;
   font-weight: 700;
-  color: black;
   @include mobile {
     font-size: 40px;
   }
@@ -112,7 +110,6 @@ h3 {
 span {
   font-size: 25px;
   color: orange;
-  background-color: white;
 }
 
 .ityped-cursor {
