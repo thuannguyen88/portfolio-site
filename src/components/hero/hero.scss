@@ -92,7 +92,7 @@ h2 {
 h3 {
   font-size: 25px;
   font-weight: 600;
-  color: $mainColor;
+  color: orange;
 
   @include mobile {
     font-size: 20px;
@@ -100,7 +100,7 @@ h3 {
 }
 
 .arrow-down {
-  color: $mainColor;
+  color: $secondColor;
   margin-top: 3rem;
   @include mobile {
     margin-top: 14rem;
@@ -127,7 +127,7 @@ span {
 
 .background-img {
   clip-path: polygon(0 0, 22% 0, 79% 100%, 0 100%);
-  background-color: green;
+  background-color: $mainColor;
 
   width: 100%;
   height: 100%;

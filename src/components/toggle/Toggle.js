@@ -12,9 +12,21 @@ export default function Toggle() {
   };
   return (
     <div className="toggle-div">
-      <FontAwesomeIcon icon={faSun} className="toggle-icon mr10" />
-      <FontAwesomeIcon icon={faMoon} className="toggle-icon" />
-      <div className="toggle-button" onClick={handleToggleClick}></div>
+      <FontAwesomeIcon
+        icon={faSun}
+        className="toggle-icon mr10"
+        style={{ color: "#ffc300" }}
+      />
+      <FontAwesomeIcon
+        icon={faMoon}
+        className="toggle-icon"
+        style={{ color: "#222" }}
+      />
+      <div
+        className="toggle-button"
+        onClick={handleToggleClick}
+        style={{ left: theme.state.darkMode ? 0 : 46 }}
+      ></div>
     </div>
   );
 }
