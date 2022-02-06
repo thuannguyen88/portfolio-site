@@ -14,10 +14,11 @@
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  // max-height: 100%;
 
   > * {
     width: 100%;
-    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px);
     scroll-snap-align: start;
   }
 }

@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
+  gap: 3rem;
   @include mobile {
     font-size: 20px;
     width: 100%;
@@ -51,15 +51,13 @@
 }
 
 .portfolio-item {
-  width: 700px;
-  height: 420px;
-  border-radius: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
   border: 1px solid white;
-  margin: 30px 20px;
   justify-content: center;
   align-items: center;
   color: white;
-  cursor: pointer;
   position: relative;
   transition: all 0.5s ease;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
@@ -69,25 +67,56 @@
     // z-index: 1;
 
     .portfolio-image {
-      opacity: 0.3;
+      opacity: 0.1;
       z-index: 0;
+      pointer-events: none;
     }
   }
 
   @include mobile {
-    width: 80%;
-    height: 420px;
   }
 }
 
-.portfolio-item-h3 {
+.btn-demo {
   position: absolute;
-  // font-size: 30px;
-  left: 50%;
-  margin-left: -105px;
-  top: 50%;
-  margin-top: -20px;
+  left: 0;
+  right: 0;
+  bottom: 25%;
+  height: 20%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: #222;
+  font-weight: 600;
+  z-index: 1;
 
-  @include mobile {
+  &:hover {
+    background-color: lightgray;
   }
+}
+
+.btn-code {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  height: 20%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: #222;
+  font-weight: 600;
+  z-index: 1;
+
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+.mb10 {
+  margin-bottom: 10px;
 }

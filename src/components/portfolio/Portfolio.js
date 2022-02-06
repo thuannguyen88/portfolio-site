@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/PortfolioList";
-import { devPortfolio, flashcardApp, reminderApp } from "../../data";
+import { allPortfolio, reactApps, backendApps } from "../../data";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("portfolio");
@@ -9,31 +9,31 @@ export default function Portfolio() {
   const list = [
     {
       id: "portfolio",
-      title: "Portfolio Site",
+      title: "Latest Works",
     },
     {
-      id: "flashcards",
-      title: "Flashcards App",
+      id: "react",
+      title: "React Apps",
     },
     {
-      id: "event-reminder",
-      title: "Reminder App",
+      id: "backend",
+      title: "Flashcard REST API",
     },
   ];
 
   useEffect(() => {
     switch (selected) {
       case "portfolio":
-        setData(devPortfolio);
+        setData(allPortfolio);
         break;
-      case "flashcards":
-        setData(flashcardApp);
+      case "react":
+        setData(reactApps);
         break;
-      case "event-reminder":
-        setData(reminderApp);
+      case "backend":
+        setData(backendApps);
         break;
       default:
-        setData(devPortfolio);
+        setData(allPortfolio);
     }
   }, [selected]);
 
@@ -53,7 +53,11 @@ export default function Portfolio() {
       <div className="portfolio-container">
         {data.map((d) => (
           <div className="portfolio-item">
-            <h3 className="portfolio-item-h3">{d.title}</h3>
+            <div className="buttons-div">
+              <button className="btn-demo mb10">See demo</button>
+              <button className="btn-code">See code</button>
+            </div>
+
             <img src={d.image} alt="" className="portfolio-image" />
           </div>
         ))}
