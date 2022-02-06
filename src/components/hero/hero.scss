@@ -21,9 +21,8 @@
   position: relative;
 
   @include mobile {
-    flex: 4;
-    width: 35%;
-    height: 30%;
+    width: 100%;
+    height: 50%;
   }
 }
 
@@ -31,7 +30,6 @@
   flex: 6;
   position: relative;
   @include mobile {
-    flex: 8;
   }
 }
 
@@ -55,6 +53,10 @@ img {
   width: 70%;
   margin: auto;
   z-index: 1;
+
+  @include mobile {
+    width: 40%;
+  }
 }
 
 .hero-text {
@@ -66,12 +68,22 @@ img {
   justify-content: center;
 
   @include mobile {
-  
     align-items: center;
+    margin: auto;
+    padding-left: 0;
+
+    h2 {
+      margin-top: 20px;
+    }
   }
 
   p {
     margin-top: 30px;
+
+    @include mobile {
+      text-align: justify;
+      text-justify: inter-word;
+    }
   }
 }
 
@@ -103,7 +115,7 @@ h3 {
   color: $secondColor;
   margin-top: 3rem;
   @include mobile {
-    margin-top: 14rem;
+    margin-top: 5rem;
   }
 }
 
@@ -133,4 +145,7 @@ span {
   height: 100%;
   position: absolute;
   z-index: 0;
+  @include mobile {
+    height: 100%;
+  }
 }
