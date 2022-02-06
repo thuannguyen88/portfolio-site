@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/PortfolioList";
 import { allPortfolio, reactApps, backendApps } from "../../data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("portfolio");
@@ -54,8 +57,14 @@ export default function Portfolio() {
         {data.map((d) => (
           <div className="portfolio-item">
             <div className="buttons-div">
-              <button className="btn-demo mb10">See demo</button>
-              <button className="btn-code">See code</button>
+              <button className="btn-demo mb10">
+                <FontAwesomeIcon icon={faLink} className="icon mr10" />
+                See demo
+              </button>
+              <button className="btn-code">
+                <FontAwesomeIcon icon={faGithub} className="icon mr10" />
+                See code
+              </button>
             </div>
 
             <img src={d.image} alt="" className="portfolio-image" />
