@@ -5,6 +5,7 @@ import References from "./components/references/References";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import Toggle from "./components/toggle/Toggle";
+import About from "./components/about/About";
 import "./app.scss";
 import { useState, useContext } from "react";
 import { ThemeContext } from "./context";
@@ -27,6 +28,7 @@ function App() {
 
       <div className="sections">
         <Intro />
+        <About />
         <Portfolio />
         <References />
         <Contact />

@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 45px;
+  }
+}
+.tech-icons {
+  height: 50px;
+  width: 50px;
+}
