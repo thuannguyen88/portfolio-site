@@ -104,7 +104,7 @@ h2 {
 h3 {
   font-size: 25px;
   font-weight: 600;
-  color: orange;
+  color: rgb(4, 58, 4);
 
   @include mobile {
     font-size: 20px;
@@ -112,7 +112,7 @@ h3 {
 }
 
 .arrow-down {
-  color: $secondColor;
+  color: rgb(4, 58, 4);
   margin-top: 3rem;
   @include mobile {
     margin-top: 5rem;
@@ -121,7 +121,7 @@ h3 {
 
 span {
   font-size: 25px;
-  color: orange;
+  color: rgb(4, 58, 4);
 }
 
 .ityped-cursor {
@@ -139,7 +139,7 @@ span {
 
 .background-img {
   clip-path: polygon(0 0, 22% 0, 79% 100%, 0 100%);
-  background-color: $mainColor;
+  background-color: rgb(4, 58, 4);
 
   width: 100%;
   height: 100%;
@@ -148,4 +148,8 @@ span {
   @include mobile {
     height: 100%;
   }
+}
+
+.thuan-profile {
+  border-radius: 100%;
 }

@@ -15,22 +15,17 @@ export const allPortfolio = [
     image: "assets/events-reminder-app.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Events Reminder App",
     image: "assets/events-reminder-app.png",
   },
   {
-    id: 3,
+    id: 5,
     title: "Events Reminder App",
     image: "assets/events-reminder-app.png",
   },
   {
-    id: 3,
-    title: "Events Reminder App",
-    image: "assets/events-reminder-app.png",
-  },
-  {
-    id: 3,
+    id: 6,
     title: "Events Reminder App",
     image: "assets/events-reminder-app.png",
   },
