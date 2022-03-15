@@ -1,6 +1,6 @@
 # Thuan Nguyen Portfolio Website Using React.js
 
-Wanted to learn how to use react.js, so decided to make a portfolio site with it.
+Wanted to learn how to get better with react.js, so built my first portfolio site with it.
 
 ## Hosted at:
 
