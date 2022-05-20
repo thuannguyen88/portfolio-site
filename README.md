@@ -1,15 +1,45 @@
 ![portfolio_cover](https://user-images.githubusercontent.com/91844917/169305985-6e1eaea9-5fe9-4574-981a-4254a6fb0220.png)
 
-# Thuan Nguyen Portfolio Website Using React.js
+# Personal Portfolio Site Using ReactJS
 
-Wanted to learn how to get better with react.js, so built my first portfolio site with it.
+Wanted to learn how to get better with ReactJS, so built my first portfolio site with it. You can visit the live site [here](thuan-dev-portfolio-v1.netlify.app/.)
 
-## Hosted at:
+## Table of Contents
 
-https://thuan-dev-portfolio-v1.netlify.app
+- [Brief Application Demo](#brief-application-demo)
+- [Project Details](#project-details)<br>
+    - [Team](#the-team)<br>
+    - [Task](#task)<br>
+    - [Understanding The Problem](#understanding-the-problem)
+    - [Ideation](#ideation)
+    - [Planning](#planning)
+    - [Tech: Tools](#tech-tools)
+    - [Features](#features)
+    - [Future Vision](#future-vision)
+    - [Reflection](#reflection)
+- [Live Site](#live-site)
 
-## To run in dev enviroment:
+## Brief Application Demo
 
-1. 'npm i' to install all dependencies
-2. 'npm run start' to run on local host
+## Project Details
+
+### The Team
+
+### Task
+
+### Understanding The Problem
+
+### Ideation
+
+### Planning
+
+### Tech Tools
+
+### Features
+
+### Future Vision
+
+### Reflection
+
+## Live Site
 
