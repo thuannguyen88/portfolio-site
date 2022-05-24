@@ -42,4 +42,4 @@ Wanted to learn how to get better with ReactJS, so built my first portfolio site
 ### Reflection
 
 ## Live Site
-You can visit the live site [here](thuan-dev-portfolio-v1.netlify.app/.)
+You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
