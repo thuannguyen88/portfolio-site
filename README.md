@@ -2,7 +2,7 @@
 
 # Personal Portfolio Site Using ReactJS
 
-Wanted to learn how to get better with ReactJS, so built my first portfolio site with it. You can visit the live site [here](thuan-dev-portfolio-v1.netlify.app/.)
+Wanted to learn how to get better with ReactJS, so built my first portfolio site with it. You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
 
 ## Table of Contents
 
