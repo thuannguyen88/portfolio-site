@@ -24,6 +24,7 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
 ## Project Details
 
 ### The Team
+This was a solo project
 
 ### Task
 
