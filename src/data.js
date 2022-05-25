@@ -2,36 +2,11 @@ export const allPortfolio = [
   {
     id: 1,
     title: "Developer Portfolio Site",
-    image: "assets/portfolio-hero-section.png",
-  },
-  {
-    id: 2,
-    title: "Hachi Flashcards App",
-    image: "assets/placeholder-flashcard.png",
-  },
-  {
-    id: 3,
-    title: "Events Reminder App",
-    image: "assets/events-reminder-app.png",
-  },
-  {
-    id: 4,
-    title: "Events Reminder App",
-    image: "assets/events-reminder-app.png",
-  },
-  {
-    id: 5,
-    title: "Events Reminder App",
-    image: "assets/events-reminder-app.png",
-  },
-  {
-    id: 6,
-    title: "Events Reminder App",
-    image: "assets/events-reminder-app.png",
+    image: "assets/portfolio-project-cover.png",
   },
 ];
 
-export const reactApps = [
+export const groupProjects = [
   {
     id: 1,
     title: "Developer Portfolio Site",
@@ -43,10 +18,10 @@ export const reactApps = [
     image: "assets/events-reminder-app.png",
   },
 ];
-export const backendApps = [
+export const soloProjects = [
   {
     id: 1,
-    title: "Hachi Flashcards App",
-    image: "assets/placeholder-flashcard.png",
+    title: "Developer Portfolio Site",
+    image: "assets/portfolio-project-cover.png",
   },
 ];

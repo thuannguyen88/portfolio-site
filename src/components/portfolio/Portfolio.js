@@ -1,39 +1,39 @@
 import { useState, useEffect } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/PortfolioList";
-import { allPortfolio, reactApps, backendApps } from "../../data";
+import { allPortfolio, groupProjects, soloProjects } from "../../data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("portfolio");
+  const [selected, setSelected] = useState("projects");
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "portfolio",
+      id: "projects",
       title: "Latest Works",
     },
     {
-      id: "react",
-      title: "React Apps",
+      id: "group",
+      title: "Group Projects",
     },
     {
-      id: "backend",
-      title: "Flashcard REST API",
+      id: "solo",
+      title: "Solo Projects",
     },
   ];
 
   useEffect(() => {
     switch (selected) {
-      case "portfolio":
+      case "projects":
         setData(allPortfolio);
         break;
-      case "react":
-        setData(reactApps);
+      case "group":
+        setData(groupProjects);
         break;
-      case "backend":
-        setData(backendApps);
+      case "solo":
+        setData(soloProjects);
         break;
       default:
         setData(allPortfolio);
