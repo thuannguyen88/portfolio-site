@@ -9,14 +9,13 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
 - [Brief Application Demo](#brief-application-demo)
 - [Project Details](#project-details)<br>
     - [Team](#the-team)<br>
-    - [Task](#task)<br>
-    - [Understanding The Problem](#understanding-the-problem)
+    - [Problem](#problem)<br>
+    - [Who Is This For](#who-is-this-for)
     - [Ideation](#ideation)
-    - [Planning](#planning)
     - [Tech: Tools](#tech-tools)
     - [Features](#features)
-    - [Future Vision](#future-vision)
     - [Reflection](#reflection)
+    - [Future Vision](#future-vision)
 - [Live Site](#live-site)
 
 ## Brief Application Demo
@@ -26,13 +25,11 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
 ### The Team
 This was a solo project
 
-### Task
+### Problem
 
-### Understanding The Problem
+### Who Is This For
 
 ### Ideation
-
-### Planning
 
 ### Tech Tools
 
@@ -46,9 +43,9 @@ This was a solo project
 - Contact form was built using EmailJS so interested parties could reach out. Once form is submitted it is instantly sent to users designated email where they can reply.
 - Each section has a vertical snap scroll for clear and quick transitions to sections
 
-### Future Vision
-
 ### Reflection
+
+### Future Vision
 
 ## Live Site
 You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
