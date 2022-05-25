@@ -2,7 +2,7 @@
 
 # Personal Portfolio Site Using ReactJS
 
-Wanted to learn how to get better with ReactJS, so built my first portfolio site with it. You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
+Wanted to practise the fundamentals of ReactJS, so built a portfolio site for software developers so they can showcase themselves and portfolio of work to relevant persons. You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
 
 ## Table of Contents
 
@@ -36,6 +36,14 @@ Wanted to learn how to get better with ReactJS, so built my first portfolio site
 ### Tech Tools
 
 ### Features
+- Sections include a navbar, hero, portfolio, references and contact form.
+- Each item on menu scrolls to relevant section when clicked.
+- Set up media queries so app is responsive for all devices. Included a hamburger menu that pops up to save space for people viewing the app on a mobile device. When hamburger menu is clicked a menu section transitions in and out smoothly for a better UX.
+- Light and dark mode toggle for user visual preferences.
+- Portfolio section with clickable tags which renders different dummy data depending on what is clicked. I wanted to use tags to give developers flexibility to highlight certain projects with a certain theme.
+- References for credibility
+- Contact form was built using EmailJS so interested parties could reach out. Once form is submitted it is instantly sent to users designated email where they can reply.
+- Each section has a vertical snap scroll for clear and quick transitions to sections
 
 ### Future Vision
 
