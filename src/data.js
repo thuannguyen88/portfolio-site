@@ -4,20 +4,21 @@ export const allPortfolio = [
     title: "Developer Portfolio Site",
     image: "assets/portfolio-project-cover.png",
   },
+  {
+    id: 2,
+    title: "iGive Web App",
+    image: "assets/igive-project-cover.png",
+  },
 ];
 
 export const groupProjects = [
   {
     id: 1,
-    title: "Developer Portfolio Site",
-    image: "assets/portfolio-hero-section.png",
-  },
-  {
-    id: 2,
-    title: "Events Reminder App",
-    image: "assets/events-reminder-app.png",
+    title: "iGive Web App",
+    image: "assets/igive-project-cover.png",
   },
 ];
+
 export const soloProjects = [
   {
     id: 1,
