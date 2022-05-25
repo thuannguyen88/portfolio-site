@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+![portfolio_cover](https://user-images.githubusercontent.com/91844917/169305985-6e1eaea9-5fe9-4574-981a-4254a6fb0220.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Portfolio Site Using ReactJS
 
-## Available Scripts
+Wanted to practise the fundamentals of ReactJS, so built a portfolio site for software developers so they can showcase themselves and portfolio of work to relevant persons. You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Brief Application Demo](#brief-application-demo)
+- [Project Details](#project-details)<br>
+    - [Team](#the-team)<br>
+    - [Problem](#problem)<br>
+    - [Who Is This For](#who-is-this-for)
+    - [Ideation](#ideation)
+    - [Tech: Tools](#tech-tools)
+    - [Features](#features)
+    - [Reflection](#reflection)
+    - [Future Vision](#future-vision)
+- [Live Site](#live-site)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Brief Application Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Details
 
-### `npm test`
+### The Team
+This was a solo project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Problem
 
-### `npm run build`
+### Who Is This For
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Ideation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Tools
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Features
+- Sections include a navbar, hero, portfolio, references and contact form.
+- Each item on menu scrolls to relevant section when clicked.
+- Set up media queries so app is responsive for all devices. Included a hamburger menu that pops up to save space for people viewing the app on a mobile device. When hamburger menu is clicked a menu section transitions in and out smoothly for a better UX.
+- Light and dark mode toggle for user visual preferences.
+- Portfolio section with clickable tags which renders different dummy data depending on what is clicked. I wanted to use tags to give developers flexibility to highlight certain projects with a certain theme.
+- References for credibility
+- Contact form was built using EmailJS so interested parties could reach out. Once form is submitted it is instantly sent to users designated email where they can reply.
+- Each section has a vertical snap scroll for clear and quick transitions to sections
 
-### `npm run eject`
+### Reflection
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Future Vision
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Live Site
+You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
