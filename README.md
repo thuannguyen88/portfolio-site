@@ -44,6 +44,7 @@ This was a solo project
 - Each section has a vertical snap scroll for clear and quick transitions to sections
 
 ### Reflection
+- Planning is cheap and coding is expensive
 
 ### Future Vision
 
