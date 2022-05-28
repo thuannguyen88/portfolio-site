@@ -26,8 +26,10 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
 This was a solo project
 
 ### Problem
+Showcasing my body of work as a software developer
 
 ### Who Is This For
+Hiring managers and recruiters
 
 ### Ideation
 
