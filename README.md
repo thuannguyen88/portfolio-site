@@ -56,6 +56,7 @@ Spoke with people who have been involved in the hiring process and enquired what
 - Each section has a vertical snap scroll for clear and quick transitions to sections
 
 ### Reflection
+- Really enjoyed working with React to build this portfolio
 - Planning is cheap and coding is expensive
 
 ### Future Vision
