@@ -59,6 +59,8 @@ Spoke with people who have been involved in the hiring process and enquired what
 - Planning is cheap and coding is expensive
 
 ### Future Vision
+- Add headless CMS to host more pertinent information of projects, instead of leaving as hard coded dummy data or building out own backend to save more time
+- Convert from Javascript to Typescript
 
 ## Live Site
 You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
