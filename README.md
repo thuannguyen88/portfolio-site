@@ -11,7 +11,7 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
     - [Team](#the-team)<br>
     - [Problem](#problem)<br>
     - [Who Is This For](#who-is-this-for)
-    - [Ideation](#ideation)
+    - [Planning](#planning)
     - [Tech: Tools](#tech-tools)
     - [Features](#features)
     - [Reflection](#reflection)
@@ -31,7 +31,7 @@ Showcasing my body of work as a software developer
 ### Who Is This For
 Hiring managers and recruiters
 
-### Ideation
+### Planning
 
 ### Tech Tools
 
