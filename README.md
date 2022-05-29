@@ -11,7 +11,7 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
     - [Team](#the-team)<br>
     - [Problem](#problem)<br>
     - [Who Is This For](#who-is-this-for)
-    - [Ideation](#ideation)
+    - [Planning](#planning)
     - [Tech: Tools](#tech-tools)
     - [Features](#features)
     - [Reflection](#reflection)
@@ -26,12 +26,22 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
 This was a solo project
 
 ### Problem
+Showcasing my body of work as a software developer
 
 ### Who Is This For
+Hiring managers and recruiters
 
-### Ideation
+### Planning
 
 ### Tech Tools
+
+| Front-end | Tools        |
+| --------- | ------------ |
+| React     | Figma        |
+| SCSS      | Dribbble     |
+| EmailJS   | Font Awesome |
+|           | MUI          |
+
 
 ### Features
 - Sections include a navbar, hero, portfolio, references and contact form.
@@ -44,6 +54,7 @@ This was a solo project
 - Each section has a vertical snap scroll for clear and quick transitions to sections
 
 ### Reflection
+- Planning is cheap and coding is expensive
 
 ### Future Vision
 
