@@ -27,7 +27,7 @@ This was a solo project.
 
 ### Problem
 Primarily showcasing body of work as a software developer so that hiring managers can see what I've done thus far. Secondarily I wanted more experience working and implementing React fundamentals.
-Lastly I wanted to learn how to use SCSS over bootstrap
+Lastly I wanted to practise an alternative to plain CSS and so picked SCSS over bootstrap.
 
 ### Who Is This For
 Hiring managers and recruiters.
