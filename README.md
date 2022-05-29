@@ -35,6 +35,14 @@ Hiring managers and recruiters
 
 ### Tech Tools
 
+| Front-end | Tools        |
+| --------- | ------------ |
+| React     | Figma        |
+| SCSS      | Dribbble     |
+| EmailJS   | Font Awesome |
+|           | MUI          |
+
+
 ### Features
 - Sections include a navbar, hero, portfolio, references and contact form.
 - Each item on menu scrolls to relevant section when clicked.
