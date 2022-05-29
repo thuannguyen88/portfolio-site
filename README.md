@@ -23,15 +23,17 @@ Wanted to practise the fundamentals of ReactJS, so built a portfolio site for so
 ## Project Details
 
 ### The Team
-This was a solo project
+This was a solo project.
 
 ### Problem
-Showcasing my body of work as a software developer
+Primarily showcasing body of work as a software developer so that hiring managers can see what I've done thus far. Secondarily I wanted more experience working and implementing React fundamentals.
+Lastly I wanted to learn how to use SCSS over bootstrap
 
 ### Who Is This For
-Hiring managers and recruiters
+Hiring managers and recruiters.
 
 ### Planning
+Spoke with people who have been involved in the hiring process and enquired what they're looking for in terms of portfolios. From there I looked at existing personal portfolios from the industry and outside of the industry to see what I liked and added them to a design collage on Figma. Using the design collage I drafted a low fidelity wireframe to get a quick structure of sections and layout, then moved on to creating high fidelity designs on Figma and using Coolors to craft a custom color palette.
 
 ### Tech Tools
 
