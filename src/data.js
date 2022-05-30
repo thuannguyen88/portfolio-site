@@ -9,6 +9,11 @@ export const allPortfolio = [
     title: "iGive Web App",
     image: "assets/igive-project-cover.png",
   },
+  {
+    id: 3,
+    title: "iGive API",
+    image: "assets/igive-api-cover.png",
+  },
 ];
 
 export const groupProjects = [
@@ -16,6 +21,11 @@ export const groupProjects = [
     id: 1,
     title: "iGive Web App",
     image: "assets/igive-project-cover.png",
+  },
+  {
+    id: 2,
+    title: "iGive API",
+    image: "assets/igive-api-cover.png",
   },
 ];
 
