@@ -48,4 +48,11 @@ export const soloProjects = [
     title: "Developer Portfolio Site",
     image: "assets/portfolio-project-cover.png",
   },
+  {
+    id: 2,
+    title: "Hf Landing Page",
+    image: "assets/heroicfit-project-cover.png",
+    github: "https://github.com/thuannguyen88/heroicfit",
+    url: "https://heroicfit.netlify.app/",
+  },
 ];
