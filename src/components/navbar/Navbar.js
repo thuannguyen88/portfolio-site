@@ -32,9 +32,12 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           </li>
         </div>
         <div className="right-nav">
-          <div className="toggle-container"></div>
-          <FontAwesomeIcon icon={faGithub} className="icon mr10" />
-          <FontAwesomeIcon icon={faLinkedin} className="icon" />
+          <a href="https://github.com/thuannguyen88">
+            <FontAwesomeIcon icon={faGithub} className="icon mr10" />
+          </a>
+          <a href="https://www.linkedin.com/in/thuan-nguyen-software-developer/">
+            <FontAwesomeIcon icon={faLinkedin} className="icon" />
+          </a>
         </div>
       </div>
     </div>
