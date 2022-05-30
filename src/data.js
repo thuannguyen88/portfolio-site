@@ -10,11 +10,22 @@ export const allPortfolio = [
     id: 2,
     title: "iGive Web App",
     image: "assets/igive-project-cover.png",
+    github: "https://github.com/thuannguyen88/IT-Crowd-iGive",
+    url: "https://igive.netlify.app/",
   },
   {
     id: 3,
     title: "iGive API",
     image: "assets/igive-api-cover.png",
+    github: "https://github.com/thuannguyen88/IT-Crowd-iGive-API",
+    url: "https://igive.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Hf Landing Page",
+    image: "assets/heroicfit-project-cover.png",
+    github: "https://github.com/thuannguyen88/heroicfit",
+    url: "https://heroicfit.netlify.app/",
   },
 ];
 
