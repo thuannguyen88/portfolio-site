@@ -57,14 +57,18 @@ export default function Portfolio() {
         {data.map((d) => (
           <div className="portfolio-item">
             <div className="buttons-div">
-              <button className="btn-demo mb10">
-                <FontAwesomeIcon icon={faLink} className="icon mr10" />
-                See demo
-              </button>
-              <button className="btn-code">
-                <FontAwesomeIcon icon={faGithub} className="icon mr10" />
-                See code
-              </button>
+              <a href={d.url}>
+                <button className="btn-demo mb10">
+                  <FontAwesomeIcon icon={faLink} className="icon mr10" />
+                  See demo
+                </button>
+              </a>
+              <a href={d.github}>
+                <button className="btn-code">
+                  <FontAwesomeIcon icon={faGithub} className="icon mr10" />
+                  See code
+                </button>
+              </a>
             </div>
 
             <img src={d.image} alt="" className="portfolio-image" />
