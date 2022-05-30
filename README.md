@@ -30,7 +30,7 @@ Primarily showcasing body of work as a software developer so that hiring manager
 Lastly I wanted to practise an alternative to plain CSS and so picked SCSS over bootstrap.
 
 ### Who Is This For
-Hiring managers and recruiters.
+Tech hiring managers and recruiters.
 
 ### Planning
 Spoke with people who have been involved in the hiring process and enquired what they're looking for in terms of portfolios. From there I looked at existing personal portfolios from the industry and outside of the industry to see what I liked and added them to a design collage on Figma. Using the design collage I drafted a low fidelity wireframe to get a quick structure of sections and layout, then moved on to creating high fidelity designs on Figma and using Coolors to craft a custom color palette.
@@ -56,9 +56,12 @@ Spoke with people who have been involved in the hiring process and enquired what
 - Each section has a vertical snap scroll for clear and quick transitions to sections
 
 ### Reflection
+- Really enjoyed working with React to build this portfolio
 - Planning is cheap and coding is expensive
 
 ### Future Vision
+- Add headless CMS to host more pertinent information of projects, instead of leaving as hard coded dummy data or building out own backend to save more time
+- Convert from Javascript to Typescript
 
 ## Live Site
 You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
