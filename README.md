@@ -57,7 +57,10 @@ Spoke with people who have been involved in the hiring process and enquired what
 
 ### Reflection
 - Really enjoyed working with React to build this portfolio
+- Found it really useful learning how to use conditional rendering for developing functionality within app
 - Planning is cheap and coding is expensive
+- An application that looks simple can have a lot more challenges then you realise
+- You don't know what you don't know
 
 ### Future Vision
 - Add headless CMS to host more pertinent information of projects, instead of leaving as hard coded dummy data or building out own backend to save more time
