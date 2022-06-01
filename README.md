@@ -66,6 +66,7 @@ Spoke with people who have been involved in the hiring process and enquired what
 - Add headless CMS to host more pertinent information of projects, instead of leaving as hard coded dummy data or building out own backend to save more time
 - Convert from Javascript to Typescript
 - Give each project its own page detailing the journey of the project 
+- After learning more about UX and UI, redesigning the look of portfolio with tailwind CSS
 
 ## Live Site
 You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
