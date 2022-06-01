@@ -65,6 +65,7 @@ Spoke with people who have been involved in the hiring process and enquired what
 ### Future Vision
 - Add headless CMS to host more pertinent information of projects, instead of leaving as hard coded dummy data or building out own backend to save more time
 - Convert from Javascript to Typescript
+- Give each project its own page detailing the journey of the project 
 
 ## Live Site
 You can visit the live site [here](https://thuan-dev-portfolio-v1.netlify.app/.)
